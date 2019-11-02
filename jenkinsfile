@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-               cmd label: '', script: 'mvn install'
+               bat label: '', script: 'mvn install'
    }
         }
         stage('Test') {
