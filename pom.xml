@@ -15,9 +15,9 @@
 
 	<distributionManagement>
 		<repository>
-			<id>nexus-snapshots</id>
-			<name>snapshots</name>
-			<url>http://localhost:8084/nexus/content/repositories/snapshots/</url>
+			<id>repository_mavenjenkins</id>
+			<name>repository_mavenjenkins</name>
+			<url>http://localhost:8084/repository/repository_mavenjenkins/</url>
 		</repository>
 	</distributionManagement>
 
