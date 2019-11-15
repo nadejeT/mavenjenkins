@@ -7,9 +7,19 @@
 	<name>maven-demo-1</name>
 	<description>maven-demo-1</description>
 
-	
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
 	
 
+	<distributionManagement>
+		<repository>
+			<id>repository_mavenjenkins</id>
+			<name>repository_mavenjenkins</name>
+			<url>http://localhost:8084/repository/repository_mavenjenkins/</url>
+		</repository>
+	</distributionManagement>
 
 
 </project>
