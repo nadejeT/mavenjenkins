@@ -78,7 +78,7 @@ pipeline {
     }
     post{
     always {
-    emailext body: 'test',to: "nadeje.tabib@esprit.tn", subject:'test'
+    emailext body: 'This is a mail from Jenkins',to: "nadeje.tabib@esprit.tn", subject:'test'
     }
     }
 }
