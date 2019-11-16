@@ -78,7 +78,7 @@ pipeline {
     }
     post{
     always {
-    emailtext body 'test', to: "nadeje.tabib@esprit.tn", subject:'test'
+    emailtext body: 'test',to: "nadeje.tabib@esprit.tn", subject:'test'
     }
     }
 }
